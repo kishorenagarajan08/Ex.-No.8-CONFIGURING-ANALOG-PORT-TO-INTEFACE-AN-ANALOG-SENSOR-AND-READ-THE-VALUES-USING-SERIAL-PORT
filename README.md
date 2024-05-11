@@ -1,12 +1,11 @@
-# Ex. No. 8 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
-## Date: 
-###  
+### Ex. No. 7 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
+### Date: 
 
-## Aim: 
+#### Aim: 
 To configure ADC channel for interfacing an analog sensor and read the values on the com port 
-## Components required:
+#### Components required:
 STM 32 CUBE IDE , STM32 NUCLEO BOARD, CONNECTING CABLE, SERIAL PORT UTILITY , ANALOG SENSOR - 3.3V TYPE 
- ## Theory 
+#### Theory 
 
  
 ADCs are characterized by:
@@ -83,7 +82,7 @@ But since the signal frequency will remain unchanged, we will plot the dependenc
   
 
   
- ## Procedure:
+#### Procedure:
 
 Open STM32CubeIDE Software and go to File → New… → STM32 Project.
 Click on Board Selector and select NUCLEO-G431RB in the dropdown menu.
@@ -146,7 +145,7 @@ GND pin is a Ground
 This module also includes a potentiometer that will fix the threshold value, & the value can be evaluated by the comparator-LM393. The LED will turn on/off based on the threshold value.
 
 
-##  Program 
+####  Program 
 ```
 Developed by : Pavana G
 Regno : 212222230105
@@ -186,10 +185,10 @@ while(1)
 
 ```
  
-## Output  :
+#### Output  :
 ![280798532-2b015bde-b522-4e87-8a13-0a5fc1de21f8](https://github.com/Prasannalakshmiganesan/Ex.-No.8-CONFIGURING-ANALOG-PORT-TO-INTEFACE-AN-ANALOG-SENSOR-AND-READ-THE-VALUES-USING-SERIAL-PORT/assets/118610231/b6a76fa9-7fa3-479d-a48a-703791321fc9)
 
 ![280798572-8c90c724-58d8-4dc2-af0d-a16edb39a17d](https://github.com/Prasannalakshmiganesan/Ex.-No.8-CONFIGURING-ANALOG-PORT-TO-INTEFACE-AN-ANALOG-SENSOR-AND-READ-THE-VALUES-USING-SERIAL-PORT/assets/118610231/be8c1d61-efe9-449f-8560-2036b0a478f3)
 
-## Result :
+#### Result :
 ADC channel for interfacing an analog sensor is configured and the values on the serial utility port is measured
